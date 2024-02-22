@@ -4,7 +4,7 @@
 
 @layer base {
   .dark {
-    --background: 0 0 12%;
+    --background: 0 0 8%;
 
     --primary: 358 100% 60%;
     --secondary: 34 100% 50%;
