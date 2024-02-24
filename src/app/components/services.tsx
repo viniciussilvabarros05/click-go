@@ -1,14 +1,17 @@
 import CardService from "./cardService";
 import { Camera, Instagram, Rss, Palette } from "lucide-react";
 import Shadow from "./shadow";
+import Separator from "./separator";
 const Services = () => {
   return (
     <section className="w-full flex h-[80vh] relative px-[7rem] items-center flex-col gap-8">
       <div className="flex items-center flex-col">
-        <h1 className="m-auto my-0 font-bold text-[48px] mt-[10%]">
+        <Separator className="mt-[10%]"/>
+        <h1 className="m-auto my-0 font-bold text-[48px]">
           Nossos Serviços
         </h1>
-        <p className="text-center">
+        <Separator />
+        <p className="text-center mt-[10%]">
           Aqui você pode conferir um pouco dos nossos serviços e entender melhor
           o que fazemos
         </p>
@@ -32,8 +35,9 @@ const Services = () => {
           <p>
             Gerenciamos suas redes sociais de forma estratégica e eficaz,
             criando conteúdo envolvente e relevante para aumentar o alcance,
-            engajamento e lealdade do público. Estamos comprometidos em impulsionar o crescimento e a presença da
-            sua marca nas principais plataformas de mídia social.
+            engajamento e lealdade do público. Estamos comprometidos em
+            impulsionar o crescimento e a presença da sua marca nas principais
+            plataformas de mídia social.
           </p>
         </CardService>
         <CardService>
@@ -58,7 +62,7 @@ const Services = () => {
             consistente e impactante da sua marca.
           </p>
         </CardService>
-        <Shadow className="right-0"/>
+        <Shadow className="right-0" />
       </div>
     </section>
   );

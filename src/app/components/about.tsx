@@ -25,43 +25,43 @@ const triangles = [
       size: 5,
       rotation: 140,
       top: 5,
-      left: 200
+      left: 35
     },
     {
       size: 5,
       rotation: 140,
       top: 10,
-      left: 300
+      left: 17
     },
     {
       size: 5,
       rotation: 140,
       top: 10,
-      left: 400
+      left: 25
     },
     {
       size: 5,
       rotation: 140,
       top: 8,
-      left: 500
+      left: 15
     },
     {
       size: 5,
       rotation: 140,
       top: 12,
-      left: 600
+      left: 60
     },
     {
       size: 5,
       rotation: 140,
       top: 100,
-      left: 700
+      left: 70
     },
     {
       size: 15,
       rotation: 45,
       top: 5,
-      left: 800
+      left: 87
     },
     {
       size: 5,
@@ -152,11 +152,11 @@ const triangles = [
 
 const About = () => {
   return (
-    <section className="w-full flex-col flex h-[80vh] relative px-[7rem] items-center justify-center overflow-hidden">
+    <section className="w-full flex-col flex h-[80vh] relative px-[7rem] items-center justify-center overflow-hidden ">
       <Separator />
       <h1 className="m-auto my-0 font-bold text-[48px]">SOBRE</h1>
       <Separator />
-      <Shadow className="left-0"/>
+
 
       {triangles.map((item, index)=>(
           <ShadowLogo key={index} style={{left:item.left+ "%",top: item.top+"%"}} className={`w-[${item.size}px] absolute rotate-[${item.rotation}deg] top-[${item.top}%] left-[${item.left}%]`}/>
