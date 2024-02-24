@@ -1,10 +1,11 @@
 import Image from "next/image";
+import ShadowLogo from "./shadow-logo";
 
 const Section1 = () => {
   return (
     <section className="w-[85%] flex h-[80vh] justify-between relative">
+     
       <div className="absolute bottom-0 right-0 w-[0] h-[0] bg-secondary rounded-full shadow-[-0px_0px_1000px_300px_rgba(255,106,24,0.147)]"></div>
-
       <div className="flex justify-center items-start flex-col w-[55%] gap-4">
         <Image
           src="/click-go1.png"
